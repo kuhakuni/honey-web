@@ -1,12 +1,13 @@
 import svgPaths from "../../imports/Desktop/svg-02xrwvybo0";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import Hero from "../../imports/Desktop/Scene.png";
 
 function HeroSection() {
 	return (
 		<div className="content-stretch flex flex-col gap-[50px] items-center justify-center relative shrink-0 w-full overflow-hidden min-h-screen">
 			{/* Background image layer */}
 			<img
-				src="/src/imports/Desktop/Scene.png"
+				src={Hero}
 				alt=""
 				className="absolute object-cover object-center opacity-50"
 			/>
